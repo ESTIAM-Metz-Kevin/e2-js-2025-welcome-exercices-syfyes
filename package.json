@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"test": "vitest --ui",
+		"start:exercice1": "tsup src/exercice1/exercice1.ts && node dist/exercice1.js",
+		"start:exercice2": "tsup src/exercice2/exercice2.ts && node dist/exercice2.js",
+		"start:exercice3": "tsup src/exercice3/exercice3.ts && node dist/exercice3.js",
+		"start:exercice4": "tsup src/exercice4/exercice4.ts && node dist/exercice4.js",
+		"start:exercice5": "tsup src/exercice5/exercice5.ts && node dist/exercice5.js"
+	},
+	"devDependencies": {
+		"@vitest/ui": "^2.1.8",
+		"tsup": "^8.3.5",
+		"typescript": "^5.7.2",
+		"vitest": "^2.1.8"
+	}
+}
