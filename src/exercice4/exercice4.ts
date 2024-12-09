@@ -13,13 +13,7 @@ console.log("----------------------------------");
  * - nombre_de_roues
  */
 export function construitUnVehicule(marque: string, modele: string, annee_de_construction: number, nombre_de_roues: number, nombre_de_portes: number): { [key: string]: any } {
-  return {
-    marque,
-    modele,
-    annee_de_construction,
-    nombre_de_roues,
-    nombre_de_portes,
-  };
+  throw new Error("Not implemented");
 }
 
 const voiture = construitUnVehicule("Toyota", "Corolla", 2020, 4, 4);
@@ -33,7 +27,7 @@ console.log("----------------------------------");
  * @param vehicule
  */
 export function combienCeVehiculeADeRoues(vehicule: { [key: string]: any }) {
-  return vehicule.nombre_de_roues;
+  throw new Error("Not implemented");
 }
 
 console.log(combienCeVehiculeADeRoues(voiture));
@@ -47,10 +41,7 @@ console.log("----------------------------------");
  * @param vehicule
  */
 export function construitUnVehiculeNeuf(vehicule: { [key: string]: any }): { [key: string]: any } {
-  return {
-    ...vehicule,
-    annee_de_construction: 2024,
-  };
+  throw new Error("Not implemented");
 }
 
 console.log(construitUnVehiculeNeuf(voiture));
@@ -63,7 +54,7 @@ console.log("----------------------------------");
  * @example editerLaProprieteObjet({name: 'John'}, 'age', 30) => {name: 'John', age: 30}
  */
 export function editerLaProprieteObjet(object: { [key: string]: any }, property: string, value: any): { [key: string]: any } {
-  return { ...object, [property]: value };
+  throw new Error("Not implemented");
 }
 
 console.log(editerLaProprieteObjet({ name: "John" }, "name", "Doe"));
@@ -78,7 +69,7 @@ console.log("----------------------------------");
  * @example dragonBallFusion({name: 'John'}, {name: 'Doe', age: 30}) => {name: 'Doe', age: 30}
  */
 export function dragonBallFusion(object1: { [key: string]: any }, object2: { [key: string]: any }): { [key: string]: any } {
-  return { ...object1, ...object2 };
+  throw new Error("Not implemented");
 }
 
 console.log(dragonBallFusion({ name: "John" }, { name: "Doe" }));

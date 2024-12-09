@@ -10,7 +10,7 @@ console.log("----------------------------------");
  * @example inverseLaChaineDeCaractere('world') => 'dlrow'
  */
 export function inverseLaChaineDeCaractere(str: string): string {
-  return str.split("").reverse().join("");
+  throw new Error("Not implemented");
 }
 
 console.log(inverseLaChaineDeCaractere("hello"));
@@ -24,7 +24,7 @@ console.log("----------------------------------");
  * @example jeCompteLesLettres('world', 'o') => 1
  */
 export function jeCompteLesLettres(str: string, letter: string): number {
-  return str.match(new RegExp(letter, "g"))?.length ?? 0;
+  throw new Error("Not implemented");
 }
 
 console.log(jeCompteLesLettres("hello", "l"));
@@ -38,7 +38,7 @@ console.log("----------------------------------");
  * @example estUnPalindrome('madam') => true
  */
 export function estUnPalindrome(str: string): boolean {
-  return str === inverseLaChaineDeCaractere(str);
+  throw new Error("Not implemented");
 }
 
 console.log(estUnPalindrome("hello"));

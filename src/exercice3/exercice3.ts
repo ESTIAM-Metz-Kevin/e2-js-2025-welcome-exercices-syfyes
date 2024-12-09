@@ -10,10 +10,7 @@ console.log("----------------------------------");
  * @example createCounter() => () => 0 => () => 1 => () => 2
  */
 export function faireUnCompteur() {
-  let count = 0;
-  return function () {
-    return count++;
-  };
+  throw new Error("Not implemented");
 }
 
 const compteur = faireUnCompteur();
@@ -26,9 +23,7 @@ console.log("----------------------------------");
  * Créer une fonction qui fait un appel x fois du callback (fonction de rappel)
  */
 export function perroquet(text: string, number_of_call: number, callback: Function) {
-  for (let i = 0; i < number_of_call; i++) {
-    callback(text);
-  }
+  throw new Error("Not implemented");
 }
 
 perroquet("perroquet", 3, console.log);
