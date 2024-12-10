@@ -12,8 +12,18 @@ console.log("----------------------------------");
  * retourne FizzBuzz si le nombre est un multiple de 3 et 5
  * sinon retourne le nombre
  */
+
 export function fizzBuzz(number: number): string | number {
-  throw new Error("Not implemented");
+  if (number % 3 === 0 && number % 5 === 0) {
+    return "FizzBuzz";
+  }
+  if (number % 3 === 0) {
+    return "Fizz";
+  }
+  if (number % 5 === 0) {
+    return "Buzz";
+  }
+  return number;
 }
 
 console.log(fizzBuzz(7));
