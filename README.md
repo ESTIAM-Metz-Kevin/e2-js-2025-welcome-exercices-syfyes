@@ -11,11 +11,9 @@ Ce projet contient une série d'exercices en JavaScript et TypeScript pour aider
   - `exercice4/`: Exercices sur les objets.
   - `exercice5/`: Exercices sur les algorithmes.
 
-## Installation
+## Installation des dépendances
 
 ```bash
-git clone <URL_DU_DEPOT> welcome-exercices
-cd welcome-exercices
 pnpm install
 ```
 
